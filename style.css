@@ -1,6 +1,7 @@
+
 body {
-    color: purple;
-    background: pink;
+    color: rgb (183 128 2370);
+    background: rgb(60 10 109);
     margin: 0px;
     font-family: "EB Garamond", serif;
     margin-bottom: 100px;
@@ -8,15 +9,14 @@ body {
 }
 
 header {
-    border-bottom: solid 1px purple;
+    border-bottom: solid 1px ;
    padding: 20px;
    font-size: 32px;
-   color: purple;
+   color:rgb(179 111 245);
 } 
-.chamada
-{ 
 
-    background: rgb(184, 156, 213);
+.chamada { 
+    background: rgb(81 31 131);
     padding-bottom: 80px;
     padding-top:  70px;
     display: flex;
@@ -34,21 +34,19 @@ h1{
 p{ 
     font-size: 20px;
 }
-
     
-.categoria-videos
-{
+.categoria-videos {
+
     display: flex;
     overflow-x: auto;
-gap:10px;
+    gap:10px;
 }
 
-.categoria
-{
+.categoria{
+
 padding-left: 20px;
 padding-right: 20px;
 margin-top:  50px; ;
-
 }
 
 .categoria-videos img{
@@ -59,7 +57,8 @@ margin-top:  50px; ;
 .categoria-videos img:hover{
     opacity: 1.0;
     border:1px solid green ;
-}
-.categoria h2 {
-    color: purple;
+} 
+
+.categoria h2 { 
+    color: rgb(179 111 245) ;
 }
